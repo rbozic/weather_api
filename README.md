@@ -14,7 +14,7 @@ Steps for starting Docker and putting script in Crontab
 
 1. Position yourself in the terminal in the folder where script and Dockerfile are stored
 2. Create docker image -> docker build -t weather_image .
-3. To check if the script is working well execute this command -> bash run_docker shine
+3. To check if the script is working well execute this command -> bash run_docker.sh shine
 4. To put script in the crontab first you need to edit cron jobs -> crontab -e
 5. Add shine entry for script -> 0 6 * * * /path/to/run_docker.sh shine
 6. Add rain entry for script -> 0 6 * * * /path/to/run_docker.sh rain
